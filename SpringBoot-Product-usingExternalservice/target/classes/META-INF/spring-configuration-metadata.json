@@ -1,0 +1,33 @@
+{
+  "groups": [
+    {
+      "name": "endpoint",
+      "type": "com.example.service.SpringBootExternalService",
+      "sourceType": "com.example.service.SpringBootExternalService"
+    }
+  ],
+  "properties": [
+    {
+      "name": "app.jwtExpirationInMs",
+      "type": "java.lang.String",
+      "description": "A description for 'app.jwtExpirationInMs'"
+    },
+    {
+      "name": "endpoint.all-products",
+      "type": "java.util.List<com.example.api.Product>",
+      "sourceType": "com.example.service.SpringBootExternalService"
+    },
+    {
+      "name": "endpoint.url",
+      "type": "java.lang.String",
+      "description": "A description for 'endpoint.url'",
+      "sourceType": "com.example.service.SpringBootExternalService"
+    },
+    {
+      "name": "jwt.secret",
+      "type": "java.lang.String",
+      "description": "A description for 'jwt.secret'"
+    }
+  ],
+  "hints": []
+}
